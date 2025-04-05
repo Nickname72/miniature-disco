@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кулінарія</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .recipe {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Кулінарія</h1>
+        <p>100 рецептів для вашого натхнення</p>
+    </header>
+    <div class="container">
+        <!-- Recipe List -->
+        <div class="recipe">
+            <h2>1. Борщ</h2>
+            <p>Інгредієнти: буряк, капуста, картопля, морква, цибуля, м'ясо, томатна паста.</p>
+            <p>Опис: Традиційний український суп з буряком.</p>
+        </div>
+        <div class="recipe">
+            <h2>2. Вареники з картоплею</h2>
+            <p>Інгредієнти: борошно, вода, картопля, цибуля.</p>
+            <p>Опис: Смачні вареники з картопляною начинкою.</p>
+        </div>
+        <!-- Add 98 more recipes here -->
+    </div>
+</body>
+</html>
